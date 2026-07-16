@@ -1,1 +1,3 @@
-,
+# Apresentação
+
+O estudo do Eletromagnetismo e da Eletrodinâmica frequentemente esbarra na abstração de seus conceitos, já que os motores elétricos do nosso cotidiano são tratados como "caixas pretas" industriais fechadas, limitando o aprendizado à memorização passiva de fórmulas no quadro de giz. Para romper essa barreira, desenvolvemos o Motor Elétrico Didático Desmontável. Trata-se de um protótipo com design totalmente aberto e modular, controlado em tempo real por um ESP32 para regular sua velocidade de rotação. Alinhado aos princípios do Desenho Universal para a Aprendizagem (DUA), o projeto materializa forças magnéticas invisíveis em movimento físico palpável, transformando a sala de aula em um laboratório altamente prático, lúdico e inclusivo para os estudantes de nível médio e superior.
