@@ -19,7 +19,7 @@ Para alcançar esses objetivos, o projeto prevê inicialmente o desenvolvimento 
 
 ## Público-alvo e possibilidades de aplicação
 
-- **Público-alvo:** Alunos do ensino médio e superior.
+- **Público-alvo:** alunos do ensino médio e superior.
 - **Áreas ou componentes curriculares:** disciplinas que envolvam física, circuitos e máquinas elétricas.
 - **Conteúdos favorecidos:** física, campo elétrico, campo magnético, eletrodinâmica e eletromagnetismo.
 - **Possibilidades de aplicação:** Aulas, oficinas, eventos, laboratórios, formação docente e formação técnica
