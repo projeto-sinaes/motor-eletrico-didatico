@@ -1,7 +1,7 @@
 
 # Motor Didático Desmontável
 
-> Projeto vinculado ao SINAES – Soluções Inclusivas de Apoio ao Ensino e à Aprendizagem.
+> Protótipo vinculado ao projeto SINAES – Soluções Inclusivas de Apoio ao Ensino e à Aprendizagem.
 
 ## Apresentação
 
@@ -133,20 +133,16 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 
 | Categoria | Nome | Curso, setor ou instituição | Participação no projeto |
 |---|---|---|---|
-| Estudante | Arthur Barbiratto Costa | Mecatrônica | Bolsista do SINAES, estudante mentor do projeto |
-| Estudante | Augusto Germano Ramos Meyer | Mecatrônica | Voluntário do SINAES, estudante mentor do projeto |
-| Estudante | João Baladelli Silva Knoll Cimardi | Mecatrônica | Desenvolvedor do projeto do motor |
-| Estudante | Maria Eduarda Gomes dos Santos | Mecatrônica | Desenvolvedor do projeto do motor |
-| Estudante | Mariana Vitória Gonçalves de Sá | Mecatrônica | Desenvolvedor do projeto do motor |
-| Estudante | Nadime Abdallah Borges | Mecatrônica | Desenvolvedor do projeto do motor |
-| Servidor | Eduardo Augusto Castelli Astrath | Docente E.B.T.T. – Núcleo da Base Nacional Comum/Física | Orientador projeto motor |
-| Servidor | Daniela Eloise Flôr  | Docente E.B.T.T. – Informação e Comunicação/Informática | Orientadora projeto SINAES |
+| Estudante | Arthur Barbiratto Costa | Mecatrônica | Bolsista, estudante mentor do projeto |
+| Estudante | Augusto Germano Ramos Meyer | Mecatrônica | Voluntário, estudante mentor do projeto |
+| Estudante | João Baladelli Silva Knoll Cimardi | Mecatrônica | Desenvolvedor |
+| Estudante | Maria Eduarda Gomes dos Santos | Mecatrônica | Desenvolvedor |
+| Estudante | Mariana Vitória Gonçalves de Sá | Mecatrônica | Desenvolvedor |
+| Estudante | Nadime Abdallah Borges | Mecatrônica | Desenvolvedor |
+| Servidor | Eduardo Augusto Castelli Astrath | Docente E.B.T.T. – Núcleo da Base Nacional Comum/Física | Orientador/Demandante |
+| Servidor | Daniela Eloise Flôr  | Docente E.B.T.T. – Informação e Comunicação/Informática | Coordenadora |
 
-## Instituição
-
-**Instituto Federal do Paraná – Campus Paranavaí**
-
-**Projeto SINAES – Soluções Inclusivas para Necessidades de Aprendizagem Específicas**
+**Instituto Federal do Paraná – Campus Paranavaí**/
 
 ---
 
