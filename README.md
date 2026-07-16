@@ -1,80 +1,71 @@
-<!-- Substitua as orientações entre colchetes -->
 
-# [INSIRA O TÍTULO DO PROJETO]
+# Motor Didático Desmontável
 
 > Projeto vinculado ao SINAES – Soluções Inclusivas para Necessidades de Aprendizagem Específicas.
 
 ## Apresentação
 
-[Contextualize brevemente o tema e a área de aprendizagem relacionada ao projeto.]
-[Descreva o problema, a dificuldade ou a barreira de aprendizagem identificada e explique suas possíveis consequências para os estudantes.]
-[Apresente brevemente o material didático ou protótipo proposto como resposta ao problema identificado.]
-[Justifique a relevância do desenvolvimento da proposta para a aprendizagem, a inclusão ou a prática pedagógica.]
+O estudo do Eletromagnetismo e da Eletrodinâmica frequentemente esbarra na abstração de seus conceitos, já que os motores elétricos do nosso cotidiano são tratados como "caixas pretas" industriais fechadas, limitando o aprendizado à memorização passiva de fórmulas no quadro de giz. Para romper essa barreira, desenvolvemos o Motor Elétrico Didático Desmontável. Trata-se de um protótipo com design totalmente aberto e modular, controlado em tempo real por um ESP32 para regular sua velocidade de rotação. Alinhado aos princípios do Desenho Universal para a Aprendizagem (DUA), o projeto materializa forças magnéticas invisíveis em movimento físico palpável, transformando a sala de aula em um laboratório altamente prático, lúdico e inclusivo para todos os estudantes
 
 ## Objetivo geral e objetivos específicos
 
 ### Objetivo geral
 
-[Informe, em uma frase, o principal resultado que o projeto pretende alcançar.]
+Esclarecer o funcionamento de motores elétricos escovados por meio da vizualização e interação.
 
 ### Objetivos específicos
 
-- [Indique uma ação necessária para alcançar o objetivo geral.]
-- [Indique outra ação necessária.]
-- [Indique como o material ou protótipo será testado, avaliado ou documentado.]
+Para alcançar esses objetivos, o projeto prevê inicialmente o desenvolvimento de uma estrutura física totalmente mecânica, modular e desmontável, garantindo que componentes essenciais como as bobinas, o eixo e os ímãs fiquem visíveis e seguros para o manuseio dos estudantes em sala de aula. Em seguida, será feita a integração eletrônica com a programação de um microcontrolador ESP32 para realizar o controle digital e preciso da velocidade de rotação do motor em tempo real. Por fim, o protótipo passará por testes práticos de funcionamento em diferentes velocidades para análise de comportamento e sua eficiência pedagógica será avaliada e documentada por meio de demonstrações interativas diretamente com o público durante a IX IFTECH.
 
 ## Público-alvo e possibilidades de aplicação
 
-- **Público-alvo:** [Informe quem poderá utilizar ou ser beneficiado pelo material.]
-- **Áreas ou componentes curriculares:** [Informe as áreas de aplicação.]
-- **Conteúdos favorecidos:** [Indique os conteúdos que poderão ser explorados.]
-- **Possibilidades de aplicação:** [Aulas, oficinas, eventos, laboratórios, formação docente etc.]
+- **Público-alvo:** Alunos do ensino médio e superior.
+- **Áreas ou componentes curriculares:** disciplinas que envolvam física, circuitos e máquinas elétricas.
+- **Conteúdos favorecidos:** física, campo elétrico, campo magnético, eletrodinâmica e eletromagnetismo.
+- **Possibilidades de aplicação:** Aulas, oficinas, eventos, laboratórios, formação docente e formação técnica
 
 ## Resultados esperados
 
-- [Informe o material, modelo ou protótipo que se espera desenvolver.]
-- [Indique de que maneira ele poderá favorecer a aprendizagem.]
-- [Indique possibilidades de utilização, compartilhamento, adaptação ou replicação.]
+Com o desenvolvimento deste projeto, espera-se obter um protótipo funcional de um **motor elétrico do tipo DC escovado**, estruturalmente aberto, modular e totalmente desmontável, utilizando materiais de fácil acesso como filamento termoplástico impresso em 3D para o chassi, além de componentes comerciais visíveis como fios de cobre esmaltado para as bobinas de indução, ímãs permanentes de neodímio e conectores metálicos para o sistema de escovas. Esse recurso pedagógico visa favorecer significativamente a aprendizagem ao transformar teorias abstratas de eletromagnetismo e eletrodinâmica em experiências concretas, permitindo que os alunos manipulem o sistema e observem em tempo real a relação direta entre a corrente elétrica, a variação do campo magnético e a geração de torque. Por fim, as possibilidades de utilização e compartilhamento do material serão ampliadas por meio de uma documentação técnica detalhada, contendo esquemas eletrônicos e códigos-fonte, o que facilitará a replicação do projeto por outros educadores, sua adaptação para diferentes níveis de ensino e a ampla aplicação de protótipos semelhantes.
 
 ## Fundamentação e integração de conhecimentos
 
 ### Conhecimentos curriculares relacionados ao projeto
 
-[Apresente os principais conceitos da área ou do componente curricular relacionados ao problema de aprendizagem e ao funcionamento do material ou protótipo.]
+Campo elétrico, campo magnético, eletrodinâmica, eletromagnetismo e linhas de indução, força magnética e Lei de Lorentz, comutação em motores dc escovados
 
 ### Conhecimentos pedagógicos e metodológicos
 
-- **O estudante poderá:** [observar, tocar, montar, testar, ouvir, movimentar etc.]
-- **O material ajuda a compreender:** [conteúdo ou conceito.]
-- **A dificuldade que procura reduzir é:** [dificuldade ou barreira.]
-- **O conteúdo será apresentado por meio de:** [texto, imagem, som, cor, relevo, objetos etc.]
-- **O estudante poderá demonstrar o que aprendeu por meio de:** [explicação, montagem, teste, desenho, apresentação etc.]
-
+- **O estudante poderá:** observar, tocar, desmontar e montar (com ele desligado), testar, ouvir e movimentar
+- **O material ajuda a compreender:** conversão de energia elétrica em mecânica, indução de campos magnéticos, torque e sistema de comutação.
+- **A dificuldade que procura reduzir é:** a abstração teórica de motores elétricos comerciais vedados, combatendo a memorização puramente mecânica de fórmulas ao tornar visíveis os fenômenos eletromagnéticos.
+- **O conteúdo será apresentado por meio de:** objetos tridimencionais (peças), cores com indicações, som do motor em movimento e controles.
+- **O estudante poderá demonstrar o que aprendeu por meio de:** montagem prática dos componentes do motor (rotor, estator, escovas e bobinas), testes ativos, além de explicações orais ou demonstrações no protótipo.
 ### Conhecimentos técnicos mobilizados
-<!-- Apague os itens que não forem aplicáveis ao projeto. -->
-[Identifique somente os conhecimentos técnicos efetivamente utilizados na elaboração da solução e explique a função de cada um.]
 
-- **Programação:** [Explique como foi utilizada.]
-- **Eletrônica:** [Explique como foi utilizada.]
-- **Robótica ou automação:** [Explique como foi utilizada.]
-- **Modelagem:** [Explique como foi utilizada.]
-- **Impressão 3D:** [Explique como foi utilizada.]
-- **Corte CNC:** [Explique como foi utilizado.]
-- **Outros:** [Informe e explique.]
-
+- **Programação:** Sistema de controle de velocidade por ESP32.
+- **Modelagem:** Empregada no design (CAD) de todas as partes do protótipo, como o chassi de suporte do motor, o carretel do rotor para o enrolamento das bobinas, as garras de fixação dos ímãs de neodímio e o mecanismo de alinhamento das escovas de contato.
+- **Impressão 3D:** Para realizar a manofatura das peças previamente modeladas (CAD) e garantindo uma estrutura modular leve, robusta, desmontável e sob medida para o acoplamento das partes do motor.
+- **Corte CNC:** Corte da base do motor e do circuito elétrico.
 
 ### Integração dos conhecimentos na solução
-[Explique como os conhecimentos curriculares, pedagógicos e técnicos foram articulados para transformar o problema de aprendizagem identificado em uma solução concreta.]
+
+A solução concreta surgiu da união direta entre a ciência, a engenharia e a pedagogia para abrir a "caixa preta" dos motores convencionais. O ponto de partida foi o currículo de física: as equações abstratas de eletromagnetismo e a Lei de Lorentz foram usadas para calcular e dimensionar as bobinas e os ímãs, transformando a teoria física no princípio ativo que gera o movimento do rotor. Para tirar essa ciência do papel, a tecnologia entrou como ferramenta de viabilização: a modelagem e a impressão 3D materializaram um motor DC escovado com estrutura totalmente exposta e desmontável, enquanto a eletrônica de potência e a programação no ESP32 garantiram o controle preciso de velocidade em tempo real. Por fim, toda essa engenharia foi moldada sob a perspectiva pedagógica do Desenho Universal para a Aprendizagem (DUA), resultando em um recurso altamente inclusivo, visual e tátil, onde o estudante deixa de ser um espectador passivo e passa a compreender a física na prática — tocando, montando, testando e vendo a ciência acontecer diante de seus olhos.
 
 ### Diferentes formas de aprendizagem
 
 [Explique como o projeto contempla diferentes formas de representação, participação, interação ou expressão da aprendizagem.]
-- **Formas de representação:** [Como o conteúdo é apresentado visualmente, pelo tato, por áudio, por objetos, textos, símbolos etc.]
-- **Formas de participação e interação:** [Como o estudante manipula, explora, observa ou participa da atividade.]
-- **Formas de ação e expressão:** [Como o estudante poderá demonstrar o que compreendeu.]
+- **Formas de representação:** O eletromagnetismo deixa de ser uma teoria abstrata e assume características multissensoriais. Visualmente, o design aberto do motor DC escovado expõe o comutador e as escovas em movimento, enquanto cores contrastantes diferenciam os polos magnéticos; tatilmente, o aluno manipula a estrutura impressa em 3D e sente a atração física dos ímãs; e auditivamente, a frequência do som emitido pelo protótipo fornece um feedback imediato sobre a sua velocidade.
+- **Formas de participação e interação:** O estudante atua como protagonista e investigador ativo do próprio aprendizado. Com o equipamento desligado, ele pode montar e desmontar os componentes para compreender a função mecânica de cada peça no sistema; ao ligá-lo, interage diretamente com o controle digital via ESP32, alterando os parâmetros e observando em tempo real como o motor e o campo magnético respondem à variação de potência aplicada.
+- **Formas de ação e expressão:** A validação do conhecimento ocorre de maneira flexível, rompendo com as avaliações escritas tradicionais. O aluno demonstra o que aprendeu de forma prática, seja ao alinhar e montar o hardware corretamente para fazê-lo funcionar, ao operar o sistema de controle na bancada, ou ao explicar o fenômeno por meio de apresentações orais e desenhos esquemáticos do fluxo magnético.
 
 ### Referências consultadas
-- [Informe livros, artigos, páginas institucionais, manuais técnicos ou outras fontes utilizadas.]
+
+- HALLIDAY, David; RESNICK, Robert; WALKER, Jearl. Fundamentos de Física: Eletromagnetismo (Volume 3). Rio de Janeiro: LTC. 
+
+- FITZGERALD, A. E.; KINGSLEY JR., Charles; UMANS, Stephen D. Máquinas Elétricas. Porto Alegre: AMGH.
+
+- ESPRESSIF SYSTEMS. ESP-IDF Programming Guide / ESP32-S3 Technical Reference Manual. Disponível na página oficial da Espressif.
 
 ## Percurso metodológico do projeto SINAES
 
