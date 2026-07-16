@@ -124,7 +124,7 @@ A adoção desse percurso comum busca:
 | Fio de cobre esmaltado | 200g | Enrolamento bobina (rotor) | Adquirido na 1ª edição do projeto | |
 | Filamento PETG | 500g | Impressão dos componentes | Adquirido na 1ª edição do projeto | |
 | Ímã Neodímio 60x10x5 | 6 | Estator magnético | Adquirido na 1ª edição do projeto | |
-| Chapa de mdf | 150x250 | base motor | Adquirido na 1ª edição do projeto |  |
+| Chapa de mdf | 150x250x15 | base motor | Adquirido na 1ª edição do projeto |  |
 | Rolamento | 1 | Segurar eixo | Adquirido na 1ª edição do projeto |  |
 | inserts de latão | 6 | possibilitar utilização de parafusos | Adquirido na 1ª edição do projeto |  |
 | parafusos | 6 | prender a estrutura a base | Adquirido na 1ª edição do projeto |  |
