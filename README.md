@@ -5,13 +5,13 @@
 
 ## Apresentação
 
-O estudo do Eletromagnetismo e da Eletrodinâmica frequentemente esbarra na abstração de seus conceitos, já que os motores elétricos do nosso cotidiano são tratados como "caixas pretas" industriais fechadas, limitando o aprendizado à memorização passiva de fórmulas no quadro de giz. Para romper essa barreira, desenvolvemos o Motor Elétrico Didático Desmontável. Trata-se de um protótipo com design totalmente aberto e modular, controlado em tempo real por um ESP32 para regular sua velocidade de rotação. Alinhado aos princípios do Desenho Universal para a Aprendizagem (DUA), o projeto materializa forças magnéticas invisíveis em movimento físico palpável, transformando a sala de aula em um laboratório altamente prático, lúdico e inclusivo para todos os estudantes
+O estudo do Eletromagnetismo e da Eletrodinâmica frequentemente esbarra na abstração de seus conceitos, já que os motores elétricos do nosso cotidiano são tratados como "caixas pretas" industriais fechadas, limitando o aprendizado à memorização passiva de fórmulas no quadro de giz. Para romper essa barreira, desenvolvemos o Motor Elétrico Didático Desmontável. Trata-se de um protótipo com design totalmente aberto e modular, controlado em tempo real por um ESP32 para regular sua velocidade de rotação. Alinhado aos princípios do Desenho Universal para a Aprendizagem (DUA), o projeto materializa forças magnéticas invisíveis em movimento físico palpável, transformando a sala de aula em um laboratório altamente prático, lúdico e inclusivo para os estudantes de nível médio e superior.
 
 ## Objetivo geral e objetivos específicos
 
 ### Objetivo geral
 
-Esclarecer o funcionamento de motores elétricos escovados por meio da vizualização e interação.
+Esclarecer o funcionamento de motores elétricos escovados por meio da visualização e interação.
 
 ### Objetivos específicos
 
@@ -39,13 +39,13 @@ Campo elétrico, campo magnético, eletrodinâmica, eletromagnetismo e linhas de
 - **O estudante poderá:** observar, tocar, desmontar e montar (com ele desligado), testar, ouvir e movimentar
 - **O material ajuda a compreender:** conversão de energia elétrica em mecânica, indução de campos magnéticos, torque e sistema de comutação.
 - **A dificuldade que procura reduzir é:** a abstração teórica de motores elétricos comerciais vedados, combatendo a memorização puramente mecânica de fórmulas ao tornar visíveis os fenômenos eletromagnéticos.
-- **O conteúdo será apresentado por meio de:** objetos tridimencionais (peças), cores com indicações, som do motor em movimento e controles.
+- **O conteúdo será apresentado por meio de:** objetos tridimensionais (peças), cores com indicações, som do motor em movimento e controles.
 - **O estudante poderá demonstrar o que aprendeu por meio de:** montagem prática dos componentes do motor (rotor, estator, escovas e bobinas), testes ativos, além de explicações orais ou demonstrações no protótipo.
 ### Conhecimentos técnicos mobilizados
 
 - **Programação:** Sistema de controle de velocidade por ESP32.
 - **Modelagem:** Empregada no design (CAD) de todas as partes do protótipo, como o chassi de suporte do motor, o carretel do rotor para o enrolamento das bobinas, as garras de fixação dos ímãs de neodímio e o mecanismo de alinhamento das escovas de contato.
-- **Impressão 3D:** Para realizar a manofatura das peças previamente modeladas (CAD) e garantindo uma estrutura modular leve, robusta, desmontável e sob medida para o acoplamento das partes do motor.
+- **Impressão 3D:** Para realizar a manufatura das peças previamente modeladas (CAD) e garantindo uma estrutura modular leve, robusta, desmontável e sob medida para o acoplamento das partes do motor.
 - **Corte CNC:** Corte da base do motor e do circuito elétrico.
 
 ### Integração dos conhecimentos na solução
@@ -54,7 +54,6 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 
 ### Diferentes formas de aprendizagem
 
-[Explique como o projeto contempla diferentes formas de representação, participação, interação ou expressão da aprendizagem.]
 - **Formas de representação:** O eletromagnetismo deixa de ser uma teoria abstrata e assume características multissensoriais. Visualmente, o design aberto do motor DC escovado expõe o comutador e as escovas em movimento, enquanto cores contrastantes diferenciam os polos magnéticos; tatilmente, o aluno manipula a estrutura impressa em 3D e sente a atração física dos ímãs; e auditivamente, a frequência do som emitido pelo protótipo fornece um feedback imediato sobre a sua velocidade.
 - **Formas de participação e interação:** O estudante atua como protagonista e investigador ativo do próprio aprendizado. Com o equipamento desligado, ele pode montar e desmontar os componentes para compreender a função mecânica de cada peça no sistema; ao ligá-lo, interage diretamente com o controle digital via ESP32, alterando os parâmetros e observando em tempo real como o motor e o campo magnético respondem à variação de potência aplicada.
 - **Formas de ação e expressão:** A validação do conhecimento ocorre de maneira flexível, rompendo com as avaliações escritas tradicionais. O aluno demonstra o que aprendeu de forma prática, seja ao alinhar e montar o hardware corretamente para fazê-lo funcionar, ao operar o sistema de controle na bancada, ou ao explicar o fenômeno por meio de apresentações orais e desenhos esquemáticos do fluxo magnético.
@@ -93,7 +92,7 @@ A adoção desse percurso comum busca:
 | Etapa do PDP | Período planejado | Período realizado | Atividades desenvolvidas | Alterações, retornos ou sobreposições |
 |---|---|---|---|---|
 | Geração do conceito | novembro/2025 | novembro/2025 | Conversa com professor de física | definir a ideia inicial |
-| Planejamento e especificação | maio/2026 | junho/2026 | desenvolvimento de esboços e reuniões com a equipe que estárealizando o projeto | mudança para um motor DC escovado  |
+| Planejamento e especificação | maio/2026 | junho/2026 | desenvolvimento de esboços e reuniões com a equipe que está realizando o projeto | mudança para um motor DC escovado  |
 | Desenvolvimento incremental | segundo semestre 2026 |  | montagem do protótipo |  |
 | Validação e aperfeiçoamento | segundo semestre 2026 |  | aperfeiçoamento do protótipo |  |
 
@@ -128,6 +127,7 @@ A adoção desse percurso comum busca:
 | Rolamento | 1 | Segurar eixo | Adquirido na 1ª edição do projeto |  |
 | inserts de latão | 6 | possibilitar utilização de parafusos | Adquirido na 1ª edição do projeto |  |
 | parafusos | 6 | prender a estrutura a base | Adquirido na 1ª edição do projeto |  |
+| Fonte | 1 | Alimentar a energia ao circuito | Adquirido na 1ª edição do projeto |  |
 | **Total estimado** |  |  |  |  |
 
 ## Artefatos do projeto
@@ -143,7 +143,7 @@ A adoção desse percurso comum busca:
 | Resultados | Exposição no IX IFTECH | [`resultados/`](resultados/) | Previsto |
 
 > [!NOTE]
-> **Possibilidades de replicação:** Ao término do projeto todos os materiais, modelos e códigos seram disponíveis gratuitamente para replicação mediante a devida creditação, sem necessidade de licensa ou autorização.
+> **Possibilidades de replicação:** Ao término do projeto todos os materiais, modelos e códigos serão disponíveis gratuitamente para replicação mediante a devida creditação, sem necessidade de licença ou autorização.
 > **Créditos:** Informe a autoria dos arquivos, modelos, códigos, imagens e materiais externos utilizados.
 
 ## Produções e participação em eventos
@@ -154,8 +154,8 @@ A adoção desse percurso comum busca:
 
 | Categoria | Nome | Curso, setor ou instituição | Participação no projeto |
 |---|---|---|---|
-| Estudante | Arthur Barbiratto Costa | Mecatrônica | Bolsista do SINAES, "orientador" do projeto |
-| Estudante | Augusto Germano Ramos Meyer | Mecatrônica | Voluntário do SINAES, "co-orientador" do projeto |
+| Estudante | Arthur Barbiratto Costa | Mecatrônica | Bolsista do SINAES, estudante mentor do projeto |
+| Estudante | Augusto Germano Ramos Meyer | Mecatrônica | Voluntário do SINAES, estudante mentor do projeto |
 | Estudante | João Baladelli Silva Knoll Cimardi | Mecatrônica | Desenvolvedor do projeto do motor |
 | Estudante | Maria Eduarda Gomes dos Santos | Mecatrônica | Desenvolvedor do projeto do motor |
 | Estudante | Mariana Vitória Gonçalves de Sá | Mecatrônica | Desenvolvedor do projeto do motor |
