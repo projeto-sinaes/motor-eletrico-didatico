@@ -1,7 +1,7 @@
 
 # Motor Didático Desmontável
 
-> Projeto vinculado ao SINAES – Soluções Inclusivas para Necessidades de Aprendizagem Específicas.
+> Projeto vinculado ao SINAES – Soluções Inclusivas de Apoio ao Ensino e à Aprendizagem.
 
 ## Apresentação
 
@@ -66,27 +66,6 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 
 - ESPRESSIF SYSTEMS. ESP-IDF Programming Guide / ESP32-S3 Technical Reference Manual. Disponível na página oficial da Espressif.
 
-## Percurso metodológico do projeto SINAES
-
-Os projetos vinculados ao SINAES adotam como referência o Processo de Desenvolvimento de Protótipos Acadêmicos, metodologia sistematizada pela proponente a partir da experiência acumulada na orientação e no acompanhamento de projetos acadêmicos voltados à criação de materiais didáticos e protótipos tecnológicos. A metodologia foi construída com base em práticas aplicadas, observadas e progressivamente aperfeiçoadas em projetos anteriores. Sua finalidade é oferecer aos estudantes um percurso acessível para organizar a identificação do problema, o planejamento técnico, a construção, os testes e a documentação das soluções. Embora dialogue com princípios do Processo de Desenvolvimento de Produtos apresentado por Rozenfeld et al. (2006), o percurso adotado pelo SINAES possui finalidade e organização próprias, adequadas ao contexto educacional e ao desenvolvimento de protótipos acadêmicos. 
-
-O Processo de Desenvolvimento de Protótipos Acadêmicos está organizado em quatro etapas: 
-1. **Geração do Conceito:** compreender o problema ou desafio de aprendizagem, identificar o público e definir a ideia inicial, a finalidade e as características gerais da solução.
-2. **Planejamento e Especificação:** organizar o desenvolvimento do projeto, definir responsabilidades, identificar capacitações necessárias e selecionar materiais, tecnologias, ferramentas e recursos, considerando requisitos, cronograma e orçamento.
-3. **Desenvolvimento Incremental:** construir a solução em partes, módulos ou versões sucessivas, realizando testes durante o processo e registrando dificuldades, decisões e modificações.
-4. **Validação e Aperfeiçoamento:** verificar o funcionamento técnico e a contribuição da solução para a aprendizagem, analisar sua utilização por diferentes públicos, incorporar melhorias e organizar a documentação necessária ao compartilhamento e à replicação.
-
-Essas etapas constituem uma orientação geral, e não uma sequência rígida. Conforme as características e necessidades de cada projeto, poderão ocorrer simultaneamente, ser retomadas ou receber procedimentos complementares. As adaptações realizadas deverão ser justificadas e registradas pelas equipes, com o acompanhamento dos professores responsáveis. 
-
-A adoção desse percurso comum busca: 
-- auxiliar os estudantes na organização do desenvolvimento;
-- facilitar o acompanhamento dos projetos;
-- registrar decisões, dificuldades e alterações;
-- favorecer a integração entre conhecimentos curriculares e técnicos;
-- orientar os testes e o aperfeiçoamento das soluções;
-- padronizar a documentação sem eliminar a autonomia das equipes;
-- facilitar o compartilhamento e a replicação dos resultados.
-
 ## Cronograma das etapas do desenvolvimento
 
 | Etapa do PDP | Período planejado | Período realizado | Atividades desenvolvidas | Alterações, retornos ou sobreposições |
@@ -143,12 +122,12 @@ A adoção desse percurso comum busca:
 | Resultados | Exposição no IX IFTECH | [`resultados/`](resultados/) | Previsto |
 
 > [!NOTE]
-> **Possibilidades de replicação:** Ao término do projeto todos os materiais, modelos e códigos serão disponíveis gratuitamente para replicação mediante a devida creditação, sem necessidade de licença ou autorização.
+> **Possibilidades de replicação:** Ao término do projeto todos os materiais, modelos e códigos serão disponibilizados gratuitamente para replicação mediante a devida creditação, sem necessidade de licença ou autorização.
 > **Créditos:** Informe a autoria dos arquivos, modelos, códigos, imagens e materiais externos utilizados.
 
 ## Produções e participação em eventos
 
-- Participação no IX IFTECH Campus Paranavaí, em outubro de 2026.
+- Participação na IX IFTECH Campus Paranavaí, em outubro de 2026.
  
 # Equipe
 
