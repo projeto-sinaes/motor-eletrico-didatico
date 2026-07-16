@@ -92,34 +92,43 @@ A adoção desse percurso comum busca:
 
 | Etapa do PDP | Período planejado | Período realizado | Atividades desenvolvidas | Alterações, retornos ou sobreposições |
 |---|---|---|---|---|
-| Geração do conceito | [Data/período] | [Data/período] | [Atividades] | [Registre mudanças ou relação com outras etapas] |
-| Planejamento e especificação | [Data/período] | [Data/período] | [Atividades] | [Registre mudanças ou relação com outras etapas] |
-| Desenvolvimento incremental | [Data/período] | [Data/período] | [Atividades] | [Registre mudanças ou relação com outras etapas] |
-| Validação e aperfeiçoamento | [Data/período] | [Data/período] | [Atividades] | [Registre mudanças ou relação com outras etapas] |
+| Geração do conceito | novembro/2025 | novembro/2025 | Conversa com professor de física | definir a ideia inicial |
+| Planejamento e especificação | maio/2026 | junho/2026 | desenvolvimento de esboços e reuniões com a equipe que estárealizando o projeto | mudança para um motor DC escovado  |
+| Desenvolvimento incremental | segundo semestre 2026 |  | montagem do protótipo |  |
+| Validação e aperfeiçoamento | segundo semestre 2026 |  | aperfeiçoamento do protótipo |  |
 
 ## Capacitações, tecnologias, materiais e orçamento
 
 | Capacitação | Finalidade no projeto | Período | Situação |
 |---|---|---|---|
-| [Capacitação] | [Por que foi necessária] | [mm/aaaa] | [Prevista / Em andamento / Concluída] |
-| [Capacitação] | [Por que foi necessária] | [mm/aaaa] | [Prevista / Em andamento / Concluída] |
+| Aulas ESP-IDF | Introduzir e ensinar os alunos a programar o ESP32 por meio do VS Code usando a ESP-IDF | abril,maio/2026 | Concluída |
+| Aula soldagem eletrônica | Ensinar a base da soldagem em componentes eletrônicos e placas de prototipação | junho/2026 | Concluída |
+| Aula Impressão 3D | Ensinar fatiamento e comandos básicos com impressora 3D | junho/2026 | Concluída |
+| Aula CNC | Ensinar a comandar e operar CNC | agosto/2026 | Prevista |
 
 ### Tecnologias, ferramentas e equipamentos
 
 | Tecnologia, ferramenta ou equipamento | Finalidade no projeto | Forma de acesso |
 |---|---|---|
-| [Software, impressora, máquina, instrumento etc.] | [Como será utilizado] | [Disponível no campus / Empréstimo / Aquisição / Outro] |
-| [Software, impressora, máquina, instrumento etc.] | [Como será utilizado] | [Forma de acesso] |
+| Impressora 3D | Impressão de partes do projeto | Disponível no campus |
+| Fusion360 | Modelar as peças para impressão 3D ou corte CNC | Disponível no campus |
+| CNC | Corte da base em MDF | Disponível no campus |
+| VS Code | Programar usando a ESP-IDF por meio dele | Disponível sem custo |
 
 ### Materiais e orçamento
 
-<!-- Preencha os valores somente quando houver necessidade de aquisição. -->
 
 | Material ou componente | Quantidade | Finalidade | Disponibilidade | Valor estimado |
 |---|---:|---|---|---:|
-| [Item] | [Quantidade] | [Como será utilizado] | [Disponível / Necessita aquisição] | R$ [valor] |
-| [Item] | [Quantidade] | [Como será utilizado] | [Disponível / Necessita aquisição] | R$ [valor] |
-| **Total estimado** |  |  |  | **R$ [total]** |
+| ESP32 | 1 | Controle de velocidade | Adquirido na 1ª edição do projeto | |
+| Fio de cobre esmaltado | 200g | Enrolamento bobina (rotor) | Adquirido na 1ª edição do projeto | |
+| Filamento PETG | 500g | Impressão dos componentes | Adquirido na 1ª edição do projeto | |
+| Ímã Neodímio 60x10x5 | 6 | Estator magnético | Adquirido na 1ª edição do projeto | |
+| Chapa de mdf | 150x250 | base motor | Adquirido na 1ª edição do projeto |  |
+| Rolamento | 1 | Segurar eixo | Adquirido na 1ª edição do projeto |  |
+| inserts de latão | 6 | possibilitar utilização de parafusos | Adquirido na 1ª edição do projeto |  |
+| parafusos | 6 | prender a estrutura a base | Adquirido na 1ª edição do projeto |  |
+| **Total estimado** |  |  |  |  |
 
 ## Artefatos do projeto
 
@@ -127,36 +136,32 @@ A adoção desse percurso comum busca:
 
 | Artefato | Descrição | Formato ou localização | Situação |
 |---|---|---|---|
-| Apresentação do projeto | [Breve descrição] | [`apresentacao/`](apresentacao/) | [Previsto / Em elaboração / Disponível] |
-| Documentação | [Relatórios, fichas técnicas ou orientações] | [`documentacao/`](documentacao/) | [Situação] |
-| Material didático | [Descrição do material] | [`materiais-didaticos/`](materiais-didaticos/) | [Situação] |
-| Código-fonte | [Descrição do código] | [`codigos/`](codigos/) | [Situação] |
-| Modelo 3D | [Descrição do modelo] | [`modelos-3d/`](modelos-3d/) | [Situação] |
-| Imagens | [Registros autorizados] | [`imagens/`](imagens/) | [Situação] |
-| Resultados | [Testes, avaliações ou evidências] | [`resultados/`](resultados/) | [Situação] |
-| Outros | [Descrição] | [Arquivo, pasta ou endereço] | [Situação] |
+| Apresentação do projeto | Motor elétrico didático desmontável | [`apresentacao/`](apresentacao/) | Disponível |
+| Código-fonte | Controle de velocidade por esp | [`codigos/`](codigos/) | Em elaboração |
+| Modelo 3D | Modelos 3Ds das diversas partes do motor | [`modelos-3d/`](modelos-3d/) | Em elaboração |
+| Imagens | Fotos do motor e seu funcionamento | [`imagens/`](imagens/) | Previsto |
+| Resultados | Exposição no IX IFTECH | [`resultados/`](resultados/) | Previsto |
 
 > [!NOTE]
-> **Possibilidades de replicação:** [Explique quais artefatos e orientações serão disponibilizados e como o material poderá ser reproduzido, utilizado ou adaptado por outras pessoas, escolas ou instituições. Indique também se a replicação exige equipamentos, materiais, conhecimentos técnicos ou condições específicas.]
-> **Créditos e licenças:** [Informe a autoria dos arquivos, modelos, códigos, imagens e materiais externos utilizados.]
+> **Possibilidades de replicação:** Ao término do projeto todos os materiais, modelos e códigos seram disponíveis gratuitamente para replicação mediante a devida creditação, sem necessidade de licensa ou autorização.
+> **Créditos:** Informe a autoria dos arquivos, modelos, códigos, imagens e materiais externos utilizados.
 
 ## Produções e participação em eventos
 
-- [Evento, publicação, apresentação ou produção relacionada]
+- Participação no IX IFTECH Campus Paranavaí, em outubro de 2026.
  
 # Equipe
-[Apresente as pessoas e instituições envolvidas e descreva objetivamente a participação de cada uma. Acrescente ou exclua linhas conforme necessário.]
 
 | Categoria | Nome | Curso, setor ou instituição | Participação no projeto |
 |---|---|---|---|
-| Estudante | [Nome] | [Curso] | [Atividades e responsabilidades] |
-| Estudante | [Nome] | [Curso] | [Atividades e responsabilidades] |
-| Servidor | [Nome] | [Setor, área ou função institucional] | [Função no projeto] |
-| Servidor | [Nome] | [Setor, área ou função institucional] | [Função no projeto] |
-| Colaborador | [Nome] | [Instituição ou área de atuação] | [Forma de colaboração] |
-| Instituição parceira | [Nome da instituição] | [Município ou setor] | [Forma de participação no projeto] |
-
-
+| Estudante | Arthur Barbiratto Costa | Mecatrônica | Bolsista do SINAES, "orientador" do projeto |
+| Estudante | Augusto Germano Ramos Meyer | Mecatrônica | Voluntário do SINAES, "co-orientador" do projeto |
+| Estudante | João Baladelli Silva Knoll Cimardi | Mecatrônica | Desenvolvedor do projeto do motor |
+| Estudante | Maria Eduarda Gomes dos Santos | Mecatrônica | Desenvolvedor do projeto do motor |
+| Estudante | Mariana Vitória Gonçalves de Sá | Mecatrônica | Desenvolvedor do projeto do motor |
+| Estudante | Nadime Abdallah Borges | Mecatrônica | Desenvolvedor do projeto do motor |
+| Servidor | Eduardo Augusto Castelli Astrath | Docente E.B.T.T. – Núcleo da Base Nacional Comum/Física | Orientador projeto motor |
+| Servidor | Daniela Eloise Flôr  | Docente E.B.T.T. – Informação e Comunicação/Informática | Orientadora projeto SINAES |
 
 ## Instituição
 
