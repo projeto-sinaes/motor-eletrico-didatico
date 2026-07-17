@@ -127,7 +127,7 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 
 ## Produções e participação em eventos
 
-- Participação na IX IFTECH Campus Paranavaí, em outubro de 2026.
+- Inscrição na XIV IFTECH Campus Paranavaí, em outubro de 2026.
  
 # Equipe
 
@@ -142,7 +142,7 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 | Servidor | Eduardo Augusto Castelli Astrath | Docente E.B.T.T. – Núcleo da Base Nacional Comum/Física | Orientador/Demandante |
 | Servidor | Daniela Eloise Flôr  | Docente E.B.T.T. – Informação e Comunicação/Informática | Coordenadora |
 
-**Instituto Federal do Paraná – Campus Paranavaí**/
+**Instituto Federal do Paraná – Campus Paranavaí**
 
 ---
 
