@@ -15,7 +15,7 @@ Esclarecer o funcionamento de motores elétricos escovados por meio da visualiza
 
 ### Objetivos específicos
 
-Para alcançar esses objetivos, o projeto prevê inicialmente o desenvolvimento de uma estrutura física totalmente mecânica, modular e desmontável, garantindo que componentes essenciais como as bobinas, o eixo e os ímãs fiquem visíveis e seguros para o manuseio dos estudantes em sala de aula. Em seguida, será feita a integração eletrônica com a programação de um microcontrolador ESP32 para realizar o controle digital e preciso da velocidade de rotação do motor em tempo real. Por fim, o protótipo passará por testes práticos de funcionamento em diferentes velocidades para análise de comportamento e sua eficiência pedagógica será avaliada e documentada por meio de demonstrações interativas diretamente com o público durante a IX IFTECH.
+Para alcançar esses objetivos, o projeto prevê inicialmente o desenvolvimento de uma estrutura física totalmente mecânica, modular e desmontável, garantindo que componentes essenciais como as bobinas, o eixo e os ímãs fiquem visíveis e seguros para o manuseio dos estudantes em sala de aula. Em seguida, será feita a integração eletrônica com a programação de um microcontrolador ESP32 para realizar o controle digital e preciso da velocidade de rotação do motor em tempo real. Por fim, o protótipo passará por testes práticos de funcionamento em diferentes velocidades para análise de comportamento e sua eficiência pedagógica será avaliada e documentada por meio de demonstrações interativas diretamente com o público durante a XIV IFTECH.
 
 ## Público-alvo e possibilidades de aplicação
 
@@ -117,7 +117,7 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 | Código-fonte | Controle de velocidade por esp | [`codigos/`](codigos/) | Em elaboração |
 | Modelo 3D | Modelos 3Ds das diversas partes do motor | [`modelos-3d/`](modelos-3d/) | Em elaboração |
 | Imagens | Fotos do motor e seu funcionamento | [`imagens/`](imagens/) | Previsto |
-| Resultados | Exposição no IX IFTECH | [`resultados/`](resultados/) | Previsto |
+| Resultados | Exposição no XIV IFTECH | [`resultados/`](resultados/) | Previsto |
 
 > [!NOTE]
 > **Possibilidades de replicação:** Ao término do projeto todos os materiais, modelos e códigos serão disponibilizados gratuitamente para replicação mediante a devida creditação, sem necessidade de licença ou autorização.
