@@ -111,8 +111,6 @@ A solução concreta surgiu da união direta entre a ciência, a engenharia e a 
 
 ## Artefatos do projeto
 
-[Relacione os arquivos, documentos e demais produtos gerados durante o desenvolvimento. Acrescente ou exclua linhas conforme necessário.]
-
 | Artefato | Descrição | Formato ou localização | Situação |
 |---|---|---|---|
 | Apresentação do projeto | Motor elétrico didático desmontável | [`apresentacao/`](apresentacao/) | Disponível |
